@@ -1,0 +1,148 @@
+/* ==================== Resets ==========================  */
+
+.form-control {
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    border-color: #f24822 !important;
+    box-shadow: 0 0 0 0.2rem rgb(255 221 207) !important;
+}
+
+
+/* ==================== Customs ==========================   */
+
+.main {
+    background: rgb(20, 71, 76);
+    background: linear-gradient(180deg, rgba(20, 71, 76, 1) 0%, rgba(186, 227, 221, 1) 100%);
+}
+
+.greenText {
+    color: #256f77;
+}
+
+.signupCard {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(186, 227, 221, 1) 100%);
+    border-radius: 0px 20px 20px 0px;
+    height: 100vh !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+
+.signupDiv {
+    margin-top: 10%;
+}
+
+.signinStyle {
+    border-color: #e6e6e6;
+    width: 200px;
+}
+
+.contentDiv {
+    padding-top: 1%;
+    padding-left: 15%;
+    width: 70%;
+}
+
+.logoStyle {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.btnIcon {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+.showCaseCard {
+    background: #c24b4b;
+    border-radius: 0px 10px 10px 0px;
+    border-color: transparent;
+    margin-left: -20px;
+    max-width: 80%;
+    margin-top: 5%;
+}
+
+.miniCard {
+    max-height: 110px;
+    width: 70px;
+    background: #CACACA;
+    border-width: 1px;
+    border-radius: 5px 5px 2px 2px;
+    border-color: #CACACA;
+}
+
+.miniCardImg {
+    height: 75px;
+}
+
+.smallText {
+    font-size: 0.5rem;
+    text-align: center;
+    line-height: normal;
+}
+
+.captionText {
+    width: 80%;
+}
+
+.sideStyle {
+    opacity: 0.8;
+}
+
+.submitBtnStyle {
+    background: rgb(224, 95, 25);
+    background: linear-gradient(180deg, rgba(224, 95, 25, 1) 65%, rgba(199, 14, 14, 1) 100%);
+    border-color: #CACACA;
+    width: 150px;
+}
+
+.submitBtnStyle:focus {
+    border-color: #f24822 !important;
+    box-shadow: 0 0 0 0.2rem rgb(255 221 207) !important;
+}
+
+.submitBtnStyle:active {
+    border-color: #f24822 !important;
+    box-shadow: 0 0 0 0.2rem rgb(255 221 207) !important;
+}
+
+.submitBtnStyle:hover {
+    border-color: #f24822 !important;
+    box-shadow: 0 0 0 0.2rem rgb(255 221 207) !important;
+}
+
+.nnBtnStyle {
+    background: rgb(221, 221, 221);
+    background: linear-gradient(180deg, rgba(221, 221, 221, 1) 0%, rgba(63, 103, 77, 1) 100%);
+    border-color: #CACACA;
+    width: 100px;
+}
+
+.linkText{
+  color: #256f77;
+  text-decoration: underline;
+  text-decoration-color: #f24822;
+}
+
+@media only screen and (max-width: 600px) {
+  .signupCard {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(186, 227, 221, 1) 100%);
+    border-radius: 0px 20px 20px 0px;
+    height: 80vh !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.showCaseCard {
+  background: #c24b4b;
+  border-radius: 0px 10px 10px 0px;
+  border-color: transparent;
+  margin-left: -20px;
+  max-width: 100%;
+  margin-top: 5%;
+}
+}
